@@ -1,0 +1,35 @@
+.mapContainer {
+    display: flex;
+    justify-content: center;
+    height: 77%;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: -4rem;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 4.98%;
+    color: #81298f;
+    margin-top: 1rem;
+}
+
+.addPoint {
+    position: relative;
+    stroke-width: 4px;
+    stroke: #000;
+    border-radius: 21px;
+    width: 84px;
+    height: 84px;
+    border: none;
+    z-index: 1000;
+    background-color: #fff;
+    bottom: -75%;
+    transform: translateX(1750%);
+}

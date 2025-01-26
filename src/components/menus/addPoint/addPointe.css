@@ -1,0 +1,137 @@
+#h {
+    margin-bottom: 0.7rem;
+    font-family: var(--font-family);
+    font-weight: 550;
+    font-size: 23px;
+    color: #000;
+}
+.content {
+    margin: 1rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.ped {
+    border-radius: 6px;
+    width: 360px;
+    height: 44px;
+    background: #fff;
+    padding-left: 10px;
+    border: none;
+}
+
+.ped::placeholder {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #939393;
+}
+
+.AddPointeTitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.warning {
+    margin-top: 6px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 11px;
+    color: #ff6262;
+}
+
+.selectOption {
+    padding-left: 5px;
+    border: none;
+    border-radius: 6px;
+    width: 360px;
+    height: 44px;
+    background: #fff;
+}
+.selectOption {
+    padding-left: 5px;
+    padding-right: 1rem;
+    border: none;
+    border-radius: 6px;
+    width: 360px;
+    height: 44px;
+    background: #fff;
+}
+
+.selectOption option {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #939393; /* Цвет текста для всех option */
+}
+
+.selectOption option.selected {
+    background-color: #f0f0f0; /* Цвет фона для выбранного option */
+    color: #939393; /* Цвет текста для выбранного option */
+}
+
+textarea {
+    padding: 5px;
+    border-radius: 6px;
+    width: 360px;
+    height: 139px;
+    background: #fff;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+textarea::placeholder {
+    padding-top: 0.2rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #939393;
+}
+
+.submit-btn {
+    display: flex;
+    justify-self: center;
+}
+
+.AddPointeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 31px 31px 0 0;
+    width: 468px;
+    height: 454px;
+}
+
+form {
+    align-items: center;
+    width: 410px;
+    height: 400px;
+}
+
+button {
+    border: none;
+}
+
+input {
+    border: none;
+    background: #efefef;
+    border-radius: 9px;
+    width: 510px;
+    height: 56px;
+}

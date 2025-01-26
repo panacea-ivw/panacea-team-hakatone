@@ -1,0 +1,14 @@
+.footerText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    padding: 30px;
+}
+
+.footer {
+    background-color: #fff;
+}

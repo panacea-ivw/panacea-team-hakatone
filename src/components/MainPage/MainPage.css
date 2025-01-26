@@ -1,0 +1,59 @@
+.MainPage {
+    background-image: url('../../assets/img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff; /* Ensure background is white */
+    color: #000; /* Set text color to black */
+    padding-left: 7.5rem; /* 120px to rem */
+    min-height: 90vh;
+}
+
+.textContainer {
+    padding: 1.25rem; /* 20px to rem */
+}
+
+.titleContainer {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 2.375rem; /* 38px to rem */
+    color: #000;
+    width: 54.125rem; /* 866px to rem */
+    margin-bottom: 1.875rem; /* 30px to rem */
+}
+
+.mainTextContainer {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.5rem; /* 24px to rem */
+    color: #000;
+    width: 64.125rem; /* 1026px to rem */
+}
+
+.plit {
+    padding: 16px;
+    border-radius: 10px;
+    width: 409px;
+    height: 190px;
+    margin-right: 15px;
+    margin-top: 50px;
+    background: #e3e3e3e7;
+}
+
+.plit h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.plit p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+}
+
+.plits {
+    display: flex;
+}

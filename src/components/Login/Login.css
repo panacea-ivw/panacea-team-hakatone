@@ -1,0 +1,229 @@
+.page-log {
+    display: flex; /* Убедитесь, что элемент является блочным */
+    justify-content: center;
+    
+}
+
+.vhod {
+    width: 220px;
+    height: 68px;
+    background-color: #fff;
+    margin: 2rem;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.login-page {
+    border-radius: 20px;
+    padding: 10px 60px 40px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(2rem);
+    background: #fff;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.25);
+}
+
+.login-page h1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    padding: 1rem;
+}
+
+.img {
+    padding: 40px;
+    display: block; /* Убедитесь, что элемент является блочным */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    background: #fff;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 7px;
+    width: 269px;
+    height: 42px;
+    padding: 10px;
+    margin-bottom: 12px;
+    background: #fff;
+}
+
+
+.loginBtn button{
+    margin-top: 1rem;
+    border-radius: 12px;
+    width: 180px;
+    height: 44px;
+    background-color: black;
+    color: white;
+}
+
+.SigninBtn {
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.login-page p {
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    background-color: #fff;
+}
+
+.h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    background-color: #fff;
+}
+
+.blueLink {
+    color: rgb(34, 170, 248);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    background-color: #fff;
+}
+
+.reset-link {
+    background: none;
+    border: none;
+    color: rgb(34, 170, 248);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-password img {
+    transform: translateY(-5px);
+    width: 20px;
+    height: 20px;
+}
+
+.error-popup {
+    position: fixed;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    width: 90%;
+    max-width: 400px;
+}
+
+.reset-popup {
+    position: fixed;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d7f8d9;
+    color: #2a721c;
+    padding: 15px;
+    border: 1px solid #c6f5d6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    width: 90%;
+    max-width: 400px;
+}
+
+.reset-popup p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    background-color: #d7f8d9;
+}
+
+.error-popup p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    background-color: #f8d7da;
+}
+
+.close-error {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #721c24;
+}
+
+.close-reset {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #2a721c;
+}
+
+.cont {
+    min-height: 82%;
+}
+
+.reset-link {
+    background: none;
+    border: none;
+    color: rgb(34, 170, 248);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0;
+}
