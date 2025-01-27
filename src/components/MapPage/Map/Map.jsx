@@ -13,18 +13,20 @@ export const Map = () => {
             });
             const marker = new mapglAPI.Marker(map, {
                 coordinates: [43.98157, 56.326455],
-                coordinates: [43.98257, 56.326455],
-                coordinates: [43.98357, 56.326455]
             });
             const tooltipEl = document.getElementById('tooltip');
 
-            marker.on('click', (event) => {
+            marker.on('mouseover', (event) => {
                 const offset = 5;
 
                 tooltipEl.style.top = `${event.point[1] + offset}px`;
                 tooltipEl.style.left = `${event.point[0] + offset}px`;
                 tooltipEl.style.display = 'block';
             });
+
+            marker.on('mouseout', (e) => {
+                tooltipEl.style.display = 'none';
+            })
         });
     }, []);
 
@@ -33,7 +35,7 @@ export const Map = () => {
             <div id="map-container" style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0 }}>
                 <MapWrapper />
             </div>
-            <div id="tooltip" style={{ display: 'none', position: 'absolute', padding: '20px 40px', background: '#fff', boxShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)', borderRadius: '4px', pointerEvents: 'none' }}>Hello, world!</div>
+            <div id="tooltip" style={{ display: 'none', position: 'absolute', padding: '20px 40px', background: '#fff', boxShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)', borderRadius: '4px', pointerEvents: 'none' }}>Номер опоры: 1, <br/>Принадлежность опоры: Россети, <br/>Координаты: 48.635151 53.623616, <br/>Аварийность: нет, <br/>Загруженность: 4/5, <br/>Незаконные подключения: нет</div>
         </div>
     );
 };
