@@ -33,3 +33,7 @@
     bottom: -75%;
     transform: translateX(1750%);
 }
+
+.addPoint button{
+    cursor: pointer;
+}

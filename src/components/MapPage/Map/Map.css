@@ -1,0 +1,7 @@
+#tooltip {
+    padding: 20px 40px;
+    background: #fff;
+    display: none;
+    position: fixed;
+    pointer-events: none;
+}

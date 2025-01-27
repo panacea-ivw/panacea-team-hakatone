@@ -71,7 +71,7 @@ function AddPointe() {
                     <option value="1">Да</option>
                     <option value="0">Нет</option>
                 </select>
-                <button type="submit">Добавить</button>
+                <button className='buttonAdd' type="submit">Добавить</button>
             </form>
         </div>
     );
